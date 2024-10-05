@@ -7,11 +7,11 @@ import { Button } from '@/components/ui/button'
 import { Home, Image, Send, CheckCircle } from 'lucide-react'
 
 const routes = [
-  { name: 'Home', path: '/app/home', icon: Home },
-  { name: 'Generate Prompts', path: '/app/generate-prompts', icon: Image },
-  { name: 'Generate Images', path: '/app/generate-images', icon: Image },
-  { name: 'Select Images', path: '/app/select-images', icon: CheckCircle },
-  { name: 'Post to Instagram', path: '/app/post-to-instagram', icon: Send },
+  { name: 'Home', path: '/home', icon: Home },
+  { name: 'Generate Prompts', path: '/generate-prompts', icon: Image },
+  { name: 'Generate Images', path: '/generate-images', icon: Image },
+  { name: 'Select Images', path: '/select-images', icon: CheckCircle },
+  { name: 'Post to Instagram', path: '/post-to-instagram', icon: Send },
 ]
 
 export function Sidebar() {

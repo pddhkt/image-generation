@@ -7,7 +7,7 @@ export default function Home() {
       <h1 className="text-4xl font-bold mb-8">Image Generation Application</h1>
       <div className="flex space-x-4">
         <Button asChild>
-          <Link href="/generate">Generate Images</Link>
+          <Link href="/home">Generate Images</Link>
         </Button>
         <Button asChild variant="outline">
           <Link href="/gallery">View Gallery</Link>
